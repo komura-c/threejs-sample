@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.scene-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  // containerの背景色をsceneの背景色と同じに設定します。
+  background-color: skyblue;
+  canvas {
+    display: inline-block !important;
+  }
+}
